@@ -5,13 +5,13 @@ const TWITTER_TOKENS = {
   // access_token && token_secret were shown in tutorial.
 }
 
-// const SESSION = {
-//   COOKIE_KEY: ""
-// }
+const SESSION = {
+  COOKIE_KEY: ""
+}
 
 const KEYS = {
   ...TWITTER_TOKENS,
-  // ...SESSION
+  ...SESSION
 }
 
 module.exports = KEYS;

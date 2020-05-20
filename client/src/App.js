@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import './App.css';
 
+// TODO button goes to backend
 function App() {
   return (
     <div className="App">
@@ -9,14 +10,10 @@ function App() {
       <BrowserRouter>
         <Switch>
 
-          <Route exact path="/auth/twitter">
-            <form method="get" action="/auth/twitter">
+          <Route exact path="/">
+            <form method="get" action="auth/twitter">
               <button type="submit">Sign in with Twitter</button>
             </form>
-          </Route>
-
-          <Route exact path="/snacks">
-            <Menu items={snacks} title="Snacks" />
           </Route>
 
 

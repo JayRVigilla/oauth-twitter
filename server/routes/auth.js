@@ -1,7 +1,7 @@
 const express = require("express");
 const router = new express.Router();
 const passport = require("passport");
-const BASE_URL = process.env.FRONT_END_URL || "http://localhost:3001";
+const BASE_URL = process.env.FRONT_END_URL || "http://localhost:3002";
 
 router.get(
   "/auth/twitter",
